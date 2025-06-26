@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTechFore – Webentwicklung & Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styling/home.css">
+    <link rel="stylesheet" href="src/styling/global.css">
+    <script src="src/js/global.js"></script>
+    <script src="src/js/home.js"></script>
+</head>
+<body>
+<button class="toggle-mode" onclick="toggleMode()">🌓 Modus wechseln</button>
+<header>
+    <h1>WebTechFore</h1>
+    <p>Moderne Webentwicklung & Design für Unternehmen mit Zukunft</p>
+    <nav>
+        <a href="src/pages/datenschutz.html">Datenschutz</a>
+        <a href="src/pages/Karriere.html">Karriere</a>
+        <a href="src/pages/Kontakt.html">Kontakt</a>
+    </nav>
+</header>
+<section>
+    <div class="feature">
+        <h2>Responsives Design</h2>
+        <p>Ihre Website passt sich automatisch allen Endgeräten an – Smartphone, Tablet, PC.</p>
+    </div>
+    <div class="feature">
+        <h2>Schnelle Ladezeiten</h2>
+        <p>Optimierte Performance für bessere Nutzererfahrung und Suchmaschinen-Ranking.</p>
+    </div>
+    <div class="feature">
+        <h2>Dark-/Light-Modus</h2>
+        <p>Wählen Sie zwischen hellem und dunklem Design – ganz nach Nutzerwunsch.</p>
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+        <button class="btn" onclick="location.href='src/pages/Kontakt.html'">Jetzt Website starten</button>
+        <button class="btn" onclick="location.href='src/pages/Karriere.html'" style="margin-left: 1rem;">Karriere starten</button>
+    </div>
+</section>
+<section class="faq">
+    <h2>Häufig gestellte Fragen (FAQ)</h2>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer('answer1')">
+            Unsere Webdienstleistungen?
+        </button>
+        <div class="faq-answer" id="answer1">
+            <p>1. Starter Premium Paket – 2.500 €
+                Dies ist für kleine Unternehmen oder Start-ups, die eine sehr gute Webseite benötigen, aber keine
+                ständige Unterstützung brauchen.
+
+                Leistungen:
+
+                Individuelles Design: 5-7 Seiten mit maßgeschneidertem Design.
+
+                Responsives Design: Die Webseite passt sich automatisch an Smartphones, Tablets und PCs an.
+
+                SEO-Grundoptimierung: Verbesserung der Sichtbarkeit in Google, damit die Webseite leichter gefunden
+                wird.
+
+                Schnelle Ladezeiten: Die Seite wird schnell laden, was wichtig für die Nutzererfahrung und SEO ist.
+
+                Sicherheitsfunktionen: Ein SSL-Zertifikat für mehr Sicherheit.
+
+                Kontaktformular: Ein einfaches Formular, über das Besucher mit dir in Kontakt treten können.
+
+                Benutzerfreundliches CMS: Ein System, mit dem du selbst Inhalte auf deiner Webseite ändern kannst.
+
+                1 Monat Support: Du bekommst einen Monat lang Unterstützung für kleinere Anpassungen.
+
+                Preis: 2.500 € (Einmalzahlung)
+
+            <p></p>
+            <p></p>
+
+            2. Advanced Premium Paket – 5.000 €
+            Für mittelgroße Unternehmen, die eine hochwertigere Webseite mit vielen Funktionen und hoher Qualität
+            benötigen.
+
+            Leistungen:
+
+            Maßgeschneidertes Design & Branding: 8-10 Seiten, die das Branding deines Unternehmens widerspiegeln.
+
+            Responsives Design: Optimierung für alle Geräte.
+
+            Erweiterte SEO-Optimierung: Umfassendere Verbesserungen, um besser in Suchmaschinen gefunden zu werden.
+
+            E-Commerce-Optionen: Integration eines Online-Shops (z. B. mit WooCommerce oder Shopify).
+
+            Benutzerfreundliches CMS: Ein Content Management System (z. B. WordPress), mit dem du die Seite selbständig
+            verwalten kannst.
+
+            Rechtliche Dokumente: Datenschutz-Erklärung, Impressum und Allgemeine Geschäftsbedingungen.
+
+            Sicherheit und Performance: Die Webseite wird so optimiert, dass sie sicher und schnell läuft.
+
+            SEO- und Performance-Reporting: Du bekommst Berichte, wie gut die Seite in Bezug auf SEO und
+            Ladegeschwindigkeit ist.
+
+            Kein kontinuierlicher Support nötig: Anleitungen für die selbstständige Verwaltung.
+
+            Preis: 5.000 € (Einmalzahlung)
+
+            <p></p>
+            <p></p>
+
+            3. Elite Premium Paket – 10.000 €
+            Für größere Unternehmen, die eine komplett maßgeschneiderte und leistungsstarke Webseite benötigen.
+
+            Leistungen:
+
+            Exklusives Design: Bis zu 15 Seiten mit maßgeschneidertem Design.
+
+            Responsives Design: Optimierung für sämtliche Endgeräte.
+
+            Komplette SEO-Strategie: Umfassende Optimierungen, damit du in Suchmaschinen besser gefunden wirst.
+
+            E-Commerce: Ein vollständig funktionierender Online-Shop.
+
+            Performance-Optimierung: Die Seite wird für maximal schnelle Ladezeiten optimiert.
+
+            Sicherheitsfunktionen: Schutz durch SSL-Zertifikate und regelmäßige Updates.
+
+            Benutzerfreundliche Formulare und Engagement-Tools: Kontaktformulare, Benutzeranmeldungen und Social
+            Media-Integrationen.
+
+            Rechtliche Anpassungen: Datenschutzrichtlinien, AGB, Impressum und Cookie-Richtlinien.
+
+            Marketing-Tools: Google Ads, Social Media Integrationen und Conversion-Tracking.
+
+            Kein Support nach der Fertigstellung nötig: Du bekommst alle nötigen Schulungen, um die Seite selbständig zu
+            verwalten.
+
+            Preis: 10.000 € (Einmalzahlung)</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer('answer3')">
+            Wie lange dauert die Fertigstellung der Webseite?
+        </button>
+        <div class="faq-answer" id="answer3">
+            <p>Die Fertigstellung einer Standard-Webseite dauert in der Regel 1 bis 4 Wochen. Der genaue Zeitrahmen
+                hängt von den Anforderungen und der Komplexität des Projekts ab.</p>
+        </div>
+    </div>
+</section>
+<footer style="padding-bottom: 2%">
+    <p>© 2025 WebTechFore – Ihre digitale Zukunft beginnt hier.</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+

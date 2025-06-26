@@ -68,68 +68,12 @@ section {
   margin-bottom: 0.5rem;
 }
 
-/* Buttons */
-.btn {
-  background-color: #0a3c7d;
-  color: #fff;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: #0056b3;
-}
-
-/* Toggle Button */
-.toggle-mode {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: #0a3c7d;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-  color: #777;
-}
-
 /* Dark Mode */
-body.dark {
-  background-color: #121212;
-  color: #eee;
-}
-
-body.dark header {
-  background-color: #1e1e1e;
-}
-
 body.dark .feature {
-  background-color: #1c1c1c;
-  border-color: #333;
+  background-color: #1c1c1c !important;
+  border-color: #333 !important;
 }
 
-body.dark .btn,
-body.dark .toggle-mode {
-  background-color: #0a84ff;
-}
-
-body.dark nav a {
-  color: #79aaff;
-}
 /* FAQ Bereich Styling */
 .faq {
   margin-top: 3rem;

@@ -96,33 +96,8 @@ nav a:hover {
   background-color: #0056b3;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-  color: #777;
-}
-
 /* Dark Mode */
-body.dark {
-  background-color: #121212;
-  color: #eee;
-}
-
-body.dark header {
-  background-color: #1e1e1e;
-}
-
 body.dark .contact-form {
-  background-color: #1c1c1c;
-  border-color: #333;
-}
-
-body.dark .contact-form button {
-  background-color: #0a84ff;
-}
-
-body.dark nav a {
-  color: #79aaff;
+  background-color: #1c1c1c !important;
+  border-color: #333 !important;
 }

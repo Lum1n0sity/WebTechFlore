@@ -1,0 +1,110 @@
+/* Grundlegende Einstellungen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    color: #111;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #e7f0fd;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #0a3c7d;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+nav {
+    margin-top: 1.5rem;
+}
+
+nav a {
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: #0a3c7d;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+.btn {
+    background-color: #0a3c7d;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Toggle Button */
+.toggle-mode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #0a3c7d;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #121212;
+    color: #eee;
+}
+
+body.dark header {
+    background-color: #1e1e1e;
+}
+
+body.dark section {
+    background-color: #1c1c1c;
+}
+
+body.dark .btn,
+body.dark .toggle-mode {
+    background-color: #0a84ff;
+}
+
+body.dark nav a {
+    color: #79aaff;
+}
